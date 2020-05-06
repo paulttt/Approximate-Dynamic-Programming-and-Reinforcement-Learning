@@ -11,4 +11,4 @@ It can be seen that the costs decrease with increasing stage.
 
 ![Alt](Bilder/cost_plot.png)
 
-Policies trained for really short horizon problems perform worse than longer horizons, and since the costs is constant after some k we could stop early
+Policies trained for really short horizon problems perform worse than longer horizons, and since the costs is constant after some k we could stop early.
