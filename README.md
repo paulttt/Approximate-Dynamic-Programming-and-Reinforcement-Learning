@@ -5,19 +5,19 @@ I further studied methods how these problems can be handled by approximating the
 At the end of the course we learned about the foundations of modern Reinforcement earning algorithms and their pros and cons such as:
 - 
 
-### Content [1]
+### Content
 
-_Approximate dynamic programming (ADP) and reinforcement learning (RL) are two closely related paradigms for solving sequential decision making problems. ADP methods tackle the problems by developing optimal control methods that adapt to uncertain systems over time, while RL algorithms take the perspective of an agent that optimizes its behavior by interacting with its environment and learning from the feedback received. Both technologies have succeeded in applications of operation research, robotics, game playing, network management, and computational intelligence.
+>Approximate dynamic programming (ADP) and reinforcement learning (RL) are two closely related paradigms for solving >sequential decision making problems. ADP methods tackle the problems by developing optimal control methods that adapt to >uncertain systems over time, while RL algorithms take the perspective of an agent that optimizes its behavior by >interacting with its environment and learning from the feedback received. Both technologies have succeeded in applications >of operation research, robotics, game playing, network management, and computational intelligence.
 
-We will cover the following topics (not exclusively):
-- Markov decision processes
-- Dynamic programming
-- Approximate dynamic programming
-- Reinforcement learning
-- Policy gradient algorithms
-- (Partially observable Markov decision processes)_
+>We will cover the following topics (not exclusively):
+>- Markov decision processes
+>- Dynamic programming
+>- Approximate dynamic programming
+>- Reinforcement learning
+>- Policy gradient algorithms
+>- (Partially observable Markov decision processes) [1]
 
-### Expected Learning Outcomes [1]
+### Expected Learning Outcomes
 
 _On completion of this course, students are able to:
 - describe classic scenarios in sequential decision making problems;
