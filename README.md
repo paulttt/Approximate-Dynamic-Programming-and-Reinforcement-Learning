@@ -7,7 +7,9 @@ At the end of the course we learned about the foundations of modern Reinforcemen
 
 ### Content
 
->Approximate dynamic programming (ADP) and reinforcement learning (RL) are two closely related paradigms for solving >sequential decision making problems. ADP methods tackle the problems by developing optimal control methods that adapt to >uncertain systems over time, while RL algorithms take the perspective of an agent that optimizes its behavior by >interacting with its environment and learning from the feedback received. Both technologies have succeeded in applications >of operation research, robotics, game playing, network management, and computational intelligence.
+The following text is taken out of the course description [1].
+
+>Approximate dynamic programming (ADP) and reinforcement learning (RL) are two closely related paradigms for solving sequential decision making problems. ADP methods tackle the problems by developing optimal control methods that adapt to >uncertain systems over time, while RL algorithms take the perspective of an agent that optimizes its behavior by >interacting with its environment and learning from the feedback received. Both technologies have succeeded in applications >of operation research, robotics, game playing, network management, and computational intelligence.
 
 >We will cover the following topics (not exclusively):
 >- Markov decision processes
@@ -15,17 +17,19 @@ At the end of the course we learned about the foundations of modern Reinforcemen
 >- Approximate dynamic programming
 >- Reinforcement learning
 >- Policy gradient algorithms
->- (Partially observable Markov decision processes) [1]
+>- (Partially observable Markov decision processes) 
 
 ### Expected Learning Outcomes
 
-_On completion of this course, students are able to:
-- describe classic scenarios in sequential decision making problems;
-- explain basic models of ADP/RL methods;
-- derive ADP/RL algorithms that are covered in the course;
-- characterize convergence properties of the ADP/RL algorithms covered in the course;
-- compare performance of the ADP/RL algorithms that are covered in the course, both theoretically and practically;
-- select proper ADP/RL algorithms in accordance with specific applications;
-- construct and implement ADP/RL algorithms to solve simple simulated decision making problems._
+The following text is taken out of the course description [1].
+
+>On completion of this course, students are able to:
+>- describe classic scenarios in sequential decision making problems;
+>- explain basic models of ADP/RL methods;
+>- derive ADP/RL algorithms that are covered in the course;
+>- characterize convergence properties of the ADP/RL algorithms covered in the course;
+>- compare performance of the ADP/RL algorithms that are covered in the course, both theoretically and practically;
+>- select proper ADP/RL algorithms in accordance with specific applications;
+>- construct and implement ADP/RL algorithms to solve simple simulated decision making problems.
 
 [1] [Course description by the chair for data processing at Technical University Munich (TUM)](https://campus.tum.de/tumonline/wbLv.wbShowLVDetail?pStpSpNr=950432235)
