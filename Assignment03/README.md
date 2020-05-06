@@ -9,6 +9,6 @@ python scheduler.py
 After the algorithm finished the computation a plot opens up that shows the min, max and mean cost values along each stage. 
 It can be seen that the costs decrease with increasing stage.
 
-![Alt text](/Bilder/cost_plot.png)
+![Alt](Bilder/cost_plot.png)
 
 Policies trained for really short horizon problems perform worse than longer horizons, and since the costs is constant after some k we could stop early
