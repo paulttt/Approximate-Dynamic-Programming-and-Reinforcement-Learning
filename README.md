@@ -1,9 +1,15 @@
 # Approximate-Dynamic-Programming-and-Reinforcement-Learning
 
+PLEASE SEE THE README FILES IN THE SUBFOLDERS REGARDING CODE DESCRIPTION.
+
 This course was all about understanding Dynamic Programming algorithms and their problems regarding complexity. 
 I further studied methods how these problems can be handled by approximating the Value or Policy vectors in a smaller subspace (Approximation).
-At the end of the course we learned about the foundations of modern Reinforcement earning algorithms and their pros and cons such as:
-- 
+At the end of the course we dived into modern Reinforcement Learning algorithms and techniques for approximating them. We learned about the following algorithms and their pros and cons:
+- TD-Learning
+- Q-Learning
+- SARSA
+
+The course was besides the ML lecture one of the most challenging for me, but I could learn a lot from it. I received a final grade of 1.3 (A).
 
 ### Content
 
