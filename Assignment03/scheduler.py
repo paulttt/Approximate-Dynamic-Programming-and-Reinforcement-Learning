@@ -29,19 +29,31 @@ def main():
     print(best_action)
 
     random_val = rand.randint(0, 10125)
-    start_state_tuple = (1, (1, 2, 0), (1, 1, 1), (1, 0, 0))
+    #start_state_tuple = (1, (1, 2, 0), (1, 1, 1), (1, 0, 0))
+    #x = system.create_state_from_tuple(start_state_tuple)
+
+    random_val = rand.randint(0, 10125)
+    start_state_tuple = system.all_possibilities()[random_val]
     x = system.create_state_from_tuple(start_state_tuple)
     costs = np.empty((10, 250))
     for k in range(10):
-        x = system.create_state_from_tuple(start_state_tuple)
         for i in range(250):
             u = pis[k, system.get_index(x)]
             costs[k, i] = system.g(x, u, system.w)
-            if i > 0: costs[k, i] += costs[k, i - 1]
+            #if i > 0: costs[k, i] += costs[k, i - 1]
             x = system.f(x, u, system.w)
 
-    plt.plot(costs[9,:])
-    plt.plot(costs[0,:])
+    plt.figure()
+    plt.plot(costs.min(axis=1), label="min")
+    plt.plot(costs.max(axis=1), label="max")
+    plt.plot(costs.mean(axis=1), label="mean")
+    plt.grid()
+    plt.xlabel("N")
+    plt.ylabel("cost")
+    plt.legend()
+    plt.show()
+    #plt.plot(costs[9,:])
+    #plt.plot(costs[0,:])
 
 
 # for i in pis[0,:]:
@@ -85,7 +97,7 @@ class System:
                     # val = self.g(x,u,self.w)+V[stage+1,self.get_index(self.f(x.copy(),min_u,self.w))]
                     if val < min_val or min_val == -1:
                         # print('min_u before: ', min_u)
-                        min_u = u;
+                        min_u = u
                         min_val = val
                     # print('min_u: ', min_u)
                 pis[stage, idx] = min_u
@@ -105,14 +117,13 @@ class System:
         if u > 0 and x.new_job != 0:
             x.qstates[u - 1].add_task(x.new_job)
             x.new_job = rand.randint(0, self.T)
-
         return x
 
     def g(self, x, u, w):
         cost = 0
         for qs in x.qstates:
             cost += qs.q.qsize()
-        if cost > 0 and u == 0:
+        if x.new_job != 0 and u == 0:
             cost += 5
         return cost
 
@@ -252,6 +263,7 @@ class QueueState:
 
     def solve_task(self):
         return self.q.get()
+
         '''
         if not(self.q.empty()):
             self.q.get()
