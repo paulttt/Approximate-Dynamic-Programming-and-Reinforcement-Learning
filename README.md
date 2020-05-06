@@ -38,4 +38,6 @@ The following text is taken out of the course description [1].
 >- select proper ADP/RL algorithms in accordance with specific applications;
 >- construct and implement ADP/RL algorithms to solve simple simulated decision making problems.
 
+#### References
+
 [1] [Course description by the chair for data processing at Technical University Munich (TUM)](https://campus.tum.de/tumonline/wbLv.wbShowLVDetail?pStpSpNr=950432235)
