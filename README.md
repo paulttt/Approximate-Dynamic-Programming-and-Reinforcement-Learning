@@ -15,7 +15,7 @@ The course was besides the ML lecture one of the most challenging for me, but I 
 
 The following text is taken out of the course description [1].
 
->Approximate dynamic programming (ADP) and reinforcement learning (RL) are two closely related paradigms for solving sequential decision making problems. ADP methods tackle the problems by developing optimal control methods that adapt to >uncertain systems over time, while RL algorithms take the perspective of an agent that optimizes its behavior by >interacting with its environment and learning from the feedback received. Both technologies have succeeded in applications >of operation research, robotics, game playing, network management, and computational intelligence.
+>Approximate dynamic programming (ADP) and reinforcement learning (RL) are two closely related paradigms for solving sequential decision making problems. ADP methods tackle the problems by developing optimal control methods that adapt to uncertain systems over time, while RL algorithms take the perspective of an agent that optimizes its behavior by interacting with its environment and learning from the feedback received. Both technologies have succeeded in applications of operation research, robotics, game playing, network management, and computational intelligence.
 
 >We will cover the following topics (not exclusively):
 >- Markov decision processes
